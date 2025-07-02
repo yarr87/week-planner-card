@@ -97,7 +97,7 @@ export class WeekPlannerCard extends LitElement {
      */
     static getConfigElement() {
         // Create and return an editor element
-        return document.createElement("week-planner-card-editor");
+        return document.createElement("week-planner-card-editor-jeff");
     }
 
     /**
@@ -367,6 +367,7 @@ export class WeekPlannerCard extends LitElement {
                 </ul>
                 <div class="month">${this._startDate.toFormat('MMMM')}</div>
             </div>
+            <div>BLAH BLAH HELLO</div>
         `;
     }
 

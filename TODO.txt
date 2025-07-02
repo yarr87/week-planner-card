@@ -1,0 +1,8 @@
+TODO
+
+- latest update: got it deployed locally and proved out I can make updates
+- make it look more like a calendar
+-- better borders
+-- move day labels to a single row at the top
+-- merge long-running events into a single line
+-- should I keep the divs as-is or switch to a table layout?

@@ -1,5 +1,19 @@
 # Week Planner Card
 
+## Jeff Updates
+I am deploying this locally.  Steps to deploy:
+
+- npm run build
+- cp dist/week-planner-card.js z:/config/www/week-planner-card-jeff.js
+- hard reload browser
+
+One time initial setup:
+
+- go to settings > dashboard > resources
+- add a resource at /local/week-planner-card-jeff.js
+- add the yaml as a manual custom element, with type week-planner-card-jeff
+
+
 ![GitHub Release](https://img.shields.io/github/v/release/FamousWolf/week-planner-card)
 ![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/FamousWolf/week-planner-card/total)
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/y/FamousWolf/week-planner-card)
